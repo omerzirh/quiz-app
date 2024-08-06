@@ -1,0 +1,266 @@
+{
+ "questions": [
+    {
+      "id": "q1",
+      "type": "one-choice",
+      "title": "Question 1",
+      "description": "Culture",
+      "question": "What is the capital of France?",
+      "options": [
+        { "value": "paris", "text": "Paris" },
+        { "value": "london", "text": "London" },
+        { "value": "berlin", "text": "Berlin" }
+      ],
+      "correctAnswer": "paris",
+      "nextQuestion": {
+        "paris": "q2",
+        "default": "q3"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "title": "Question 2",
+      "description": "Science",
+      "question": "Which of these are planets?",
+      "options": [
+        { "value": "mars", "text": "Mars" },
+        { "value": "jupiter", "text": "Jupiter" },
+        { "value": "sun", "text": "Sun" },
+        { "value": "moon", "text": "Moon" }
+      ],
+      "correctAnswers": ["mars", "jupiter"],
+      "nextQuestion": "q3"
+    },
+    {
+      "id": "q3",
+      "type": "input",
+      "title": "Question 3",
+      "description": "Math",
+      "question": "What is 2 + 2?",
+      "correctAnswer": "4",
+      "nextQuestion": "q4"
+    },
+    {
+      "id": "q4",
+      "type": "one-choice",
+      "title": "Question 4",
+      "description": "Geography",
+      "question": "Which continent is the largest by land area?",
+      "options": [
+        { "value": "asia", "text": "Asia" },
+        { "value": "africa", "text": "Africa" },
+        { "value": "northAmerica", "text": "North America" }
+      ],
+      "correctAnswer": "asia",
+      "nextQuestion": "q5"
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "title": "Question 5",
+      "description": "Literature",
+      "question": "Which of these are works by William Shakespeare?",
+      "options": [
+        { "value": "hamlet", "text": "Hamlet" },
+        { "value": "greatGatsby", "text": "The Great Gatsby" },
+        { "value": "macbeth", "text": "Macbeth" },
+        { "value": "prideAndPrejudice", "text": "Pride and Prejudice" }
+      ],
+      "correctAnswers": ["hamlet", "macbeth"],
+      "nextQuestion": "q6"
+    },
+    {
+      "id": "q6",
+      "type": "input",
+      "title": "Question 6",
+      "description": "History",
+      "question": "In which year did World War II end?",
+      "correctAnswer": "1945",
+      "nextQuestion": "q7"
+    },
+    {
+      "id": "q7",
+      "type": "one-choice",
+      "title": "Question 7",
+      "description": "Animal Identification",
+      "question": "What is the name of this animal?",
+      "image": "lion.jpg",
+      "options": [
+        { "value": "lion", "text": "Lion" },
+        { "value": "tiger", "text": "Tiger" },
+        { "value": "leopard", "text": "Leopard" }
+      ],
+      "correctAnswer": "lion",
+      "nextQuestion": "q8"
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "title": "Question 8",
+      "description": "Music",
+      "question": "Which of these are string instruments?",
+      "options": [
+        { "value": "violin", "text": "Violin" },
+        { "value": "flute", "text": "Flute" },
+        { "value": "guitar", "text": "Guitar" },
+        { "value": "drums", "text": "Drums" }
+      ],
+      "correctAnswers": ["violin", "guitar"],
+      "nextQuestion": "q9"
+    },
+    {
+      "id": "q9",
+      "type": "input",
+      "title": "Question 9",
+      "description": "Chemistry",
+      "question": "What is the chemical symbol for gold?",
+      "correctAnswer": "Au",
+      "nextQuestion": "q10"
+    },
+    {
+      "id": "q10",
+      "type": "one-choice",
+      "title": "Question 10",
+      "description": "Sports",
+      "question": "In which sport would you perform a slam dunk?",
+      "options": [
+        { "value": "basketball", "text": "Basketball" },
+        { "value": "soccer", "text": "Soccer" },
+        { "value": "tennis", "text": "Tennis" }
+      ],
+      "correctAnswer": "basketball",
+      "nextQuestion": "q11"
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "title": "Question 11",
+      "description": "Technology",
+      "question": "Which of these are programming languages?",
+      "options": [
+        { "value": "python", "text": "Python" },
+        { "value": "java", "text": "Java" },
+        { "value": "photoshop", "text": "Photoshop" },
+        { "value": "excel", "text": "Excel" }
+      ],
+      "correctAnswers": ["python", "java"],
+      "nextQuestion": "q12"
+    },
+    {
+      "id": "q12",
+      "type": "input",
+      "title": "Question 12",
+      "description": "Astronomy",
+      "question": "How many planets are in our solar system?",
+      "correctAnswer": "8",
+      "nextQuestion": "q13"
+    },
+    {
+      "id": "q13",
+      "type": "one-choice",
+      "title": "Question 13",
+      "description": "Food",
+      "question": "Which country is known as the origin of pizza?",
+      "options": [
+        { "value": "italy", "text": "Italy" },
+        { "value": "greece", "text": "Greece" },
+        { "value": "usa", "text": "United States" }
+      ],
+      "correctAnswer": "italy",
+      "nextQuestion": "q14"
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "title": "Question 14",
+      "description": "Art",
+      "question": "Which of these artists are known for their paintings?",
+      "options": [
+        { "value": "vanGogh", "text": "Vincent van Gogh" },
+        { "value": "beethoven", "text": "Ludwig van Beethoven" },
+        { "value": "picasso", "text": "Pablo Picasso" },
+        { "value": "shakespeare", "text": "William Shakespeare" }
+      ],
+      "correctAnswers": ["vanGogh", "picasso"],
+      "nextQuestion": "q15"
+    },
+    {
+      "id": "q15",
+      "type": "input",
+      "title": "Question 15",
+      "description": "Biology",
+      "question": "What is the largest organ in the human body?",
+      "correctAnswer": "skin",
+      "nextQuestion": "q16"
+    },
+    {
+      "id": "q16",
+      "type": "one-choice",
+      "title": "Question 16",
+      "description": "Animal Identification",
+      "question": "What is the name of this animal?",
+      "image": "penguin.jpg",
+      "options": [
+        { "value": "penguin", "text": "Penguin" },
+        { "value": "puffin", "text": "Puffin" },
+        { "value": "seagull", "text": "Seagull" }
+      ],
+      "correctAnswer": "penguin",
+      "nextQuestion": "q17"
+    },
+    {
+      "id": "q17",
+      "type": "multiple-choice",
+      "title": "Question 17",
+      "description": "Geography",
+      "question": "Which of these countries are in Europe?",
+      "options": [
+        { "value": "spain", "text": "Spain" },
+        { "value": "brazil", "text": "Brazil" },
+        { "value": "germany", "text": "Germany" },
+        { "value": "japan", "text": "Japan" }
+      ],
+      "correctAnswers": ["spain", "germany"],
+      "nextQuestion": "q18"
+    },
+    {
+      "id": "q18",
+      "type": "input",
+      "title": "Question 18",
+      "description": "Physics",
+      "question": "What is the speed of light in meters per second?",
+      "correctAnswer": "299792458",
+      "nextQuestion": "q19"
+    },
+    {
+      "id": "q19",
+      "type": "one-choice",
+      "title": "Question 19",
+      "description": "Movies",
+      "question": "Who directed the movie 'Jurassic Park'?",
+      "options": [
+        { "value": "spielberg", "text": "Steven Spielberg" },
+        { "value": "cameron", "text": "James Cameron" },
+        { "value": "nolan", "text": "Christopher Nolan" }
+      ],
+      "correctAnswer": "spielberg",
+      "nextQuestion": "q20"
+    },
+    {
+      "id": "q20",
+      "type": "multiple-choice",
+      "title": "Question 20",
+      "description": "Language",
+      "question": "Which of these languages use a non-Latin alphabet?",
+      "options": [
+        { "value": "russian", "text": "Russian" },
+        { "value": "spanish", "text": "Spanish" },
+        { "value": "greek", "text": "Greek" },
+        { "value": "french", "text": "French" }
+      ],
+      "correctAnswers": ["russian", "greek"],
+      "nextQuestion": "end"
+    }
+  ]
+  }

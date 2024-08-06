@@ -1,0 +1,132 @@
+{
+  "questions": [
+    {
+      "id": "s1",
+      "type": "one-choice",
+      "title": "Question 1",
+      "description": "Football",
+      "question": "Which country won the FIFA World Cup in 2022?",
+      "options": [
+        { "value": "argentina", "text": "Argentina" },
+        { "value": "france", "text": "France" },
+        { "value": "brazil", "text": "Brazil" }
+      ],
+      "correctAnswer": "argentina",
+      "nextQuestion": "s2"
+    },
+    {
+      "id": "s2",
+      "type": "multiple-choice",
+      "title": "Question 2",
+      "description": "Olympics",
+      "question": "Which of these sports are part of the Summer Olympics?",
+      "options": [
+        { "value": "swimming", "text": "Swimming" },
+        { "value": "cricket", "text": "Cricket" },
+        { "value": "gymnastics", "text": "Gymnastics" },
+        { "value": "rugby", "text": "Rugby" }
+      ],
+      "correctAnswers": ["swimming", "gymnastics"],
+      "nextQuestion": "s3"
+    },
+    {
+      "id": "s3",
+      "type": "input",
+      "title": "Question 3",
+      "description": "Tennis",
+      "question": "How many Grand Slam singles titles has Serena Williams won?",
+      "correctAnswer": "23",
+      "nextQuestion": "s4"
+    },
+    {
+      "id": "s4",
+      "type": "one-choice",
+      "title": "Question 4",
+      "description": "Basketball",
+      "question": "Which NBA team has won the most championships?",
+      "options": [
+        { "value": "celtics", "text": "Boston Celtics" },
+        { "value": "lakers", "text": "Los Angeles Lakers" },
+        { "value": "warriors", "text": "Golden State Warriors" }
+      ],
+      "correctAnswer": "celtics",
+      "nextQuestion": "s5"
+    },
+    {
+      "id": "s5",
+      "type": "multiple-choice",
+      "title": "Question 5",
+      "description": "Track and Field",
+      "question": "Which of these are track and field events in the Olympics?",
+      "options": [
+        { "value": "shotput", "text": "Shot Put" },
+        { "value": "cycling", "text": "Cycling" },
+        { "value": "javelin", "text": "Javelin Throw" },
+        { "value": "rowing", "text": "Rowing" }
+      ],
+      "correctAnswers": ["shotput", "javelin"],
+      "nextQuestion": "s6"
+    },
+    {
+      "id": "s6",
+      "type": "input",
+      "title": "Question 6",
+      "description": "Golf",
+      "question": "How many holes are played in a standard round of golf?",
+      "correctAnswer": "18",
+      "nextQuestion": "s7"
+    },
+    {
+      "id": "s7",
+      "type": "one-choice",
+      "title": "Question 7",
+      "description": "Cricket",
+      "question": "In cricket, what is the term for a score of zero by a batsman?",
+      "options": [
+        { "value": "duck", "text": "Duck" },
+        { "value": "goose", "text": "Goose" },
+        { "value": "chicken", "text": "Chicken" }
+      ],
+      "correctAnswer": "duck",
+      "nextQuestion": "s8"
+    },
+    {
+      "id": "s8",
+      "type": "multiple-choice",
+      "title": "Question 8",
+      "description": "Winter Sports",
+      "question": "Which of these are Winter Olympic sports?",
+      "options": [
+        { "value": "curling", "text": "Curling" },
+        { "value": "volleyball", "text": "Volleyball" },
+        { "value": "bobsleigh", "text": "Bobsleigh" },
+        { "value": "wrestling", "text": "Wrestling" }
+      ],
+      "correctAnswers": ["curling", "bobsleigh"],
+      "nextQuestion": "s9"
+    },
+    {
+      "id": "s9",
+      "type": "input",
+      "title": "Question 9",
+      "description": "Formula 1",
+      "question": "How many drivers start on the grid in a Formula 1 race?",
+      "correctAnswer": "20",
+      "nextQuestion": "s10"
+    },
+    {
+      "id": "s10",
+      "type": "one-choice",
+      "title": "Question 10",
+      "description": "Swimming",
+      "question": "Which swimming stroke is typically the fastest?",
+      "options": [
+        { "value": "freestyle", "text": "Freestyle" },
+        { "value": "butterfly", "text": "Butterfly" },
+        { "value": "breaststroke", "text": "Breaststroke" }
+      ],
+      "correctAnswer": "freestyle",
+      "nextQuestion": "end"
+    }
+  ]
+}

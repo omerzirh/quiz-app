@@ -1,0 +1,20 @@
+.quiz-engine {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .quiz-end {
+    font-size: 24px;
+    text-align: center;
+  }
+  .landing-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+    margin-top: 20px;
+
+  }

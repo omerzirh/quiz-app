@@ -1,0 +1,32 @@
+.option {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.option.selected {
+  background-color: lightgray;
+  border-color: black;
+}
+
+.option.correct {
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.option.incorrect {
+  background-color: lightpink;
+  border-color: red;
+}
+
+.option input {
+  margin-right: 10px;
+}
